@@ -4,3 +4,17 @@
   padding: 2rem;
   text-align: center;
 }
+
+body{
+  background-color: #0f172a;
+  color: #cbd5e1;
+}
+
+/*colors
+
+main color
+deep blue: #020617 slate 950
+less deep blue: #0f172a slate 900
+light white: #cbd5e1 slate 300
+
+accent color

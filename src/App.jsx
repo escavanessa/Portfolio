@@ -1,3 +1,9 @@
+import Contact from '../Components/Contact/Contact'
+import Education from '../Components/Education/Education'
+import Hero from '../Components/Hero/Hero'
+import Nav from '../Components/Nav/Nav'
+import Projects from '../Components/Projects/Projects'
+import Skills from '../Components/Skills/Skills'
 import './App.css'
 
 function App() {
@@ -5,7 +11,12 @@ function App() {
 
   return (
     <>
-      <h1>i made a change</h1>
+      <Nav/>
+      <Hero/>
+      <Education/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
     </>
   )
 }
