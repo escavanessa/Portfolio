@@ -1,0 +1,15 @@
+.skill-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 60px;
+}
+
+.skill-li{
+    margin: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;
+    border: solid 2px;
+    border-radius: 10px;
+
+}
