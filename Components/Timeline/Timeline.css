@@ -1,0 +1,54 @@
+
+.timeline-container{
+    position: relative;
+    height: 500px;
+}
+
+.box-1{
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 0;
+    width: 100px;
+    height: 200px;
+    border: solid 2px;
+}
+
+.box-2{
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 85px;
+    left: 180px;
+    width: 200px;
+    height: 300px;
+    border: solid 2px;
+}
+
+.box-3{
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 50px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}
+
+.box-4{
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 100px;
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}
+
+.box-5{
+    position: absolute;
+    transform: rotate(45deg);
+    bottom: 400px;
+    right: 300px;
+    width: 100px;
+    height: 100px;
+    border: solid 2px;
+}

@@ -4,6 +4,7 @@ import Hero from '../Components/Hero/Hero'
 import Nav from '../Components/Nav/Nav'
 import Projects from '../Components/Projects/Projects'
 import Skills from '../Components/Skills/Skills'
+import Timeline from '../Components/Timeline/Timeline'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <Nav/>
       <Hero/>
+      <Timeline />
       <Education/>
       <Skills/>
       <Projects/>
