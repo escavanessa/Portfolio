@@ -1,8 +1,14 @@
 
 .timeline-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
     position: relative;
     height: 500px;
+    padding: 100px;
 }
+
 
 .box-1{
     position: absolute;
@@ -10,45 +16,183 @@
     bottom: 0;
     width: 100px;
     height: 200px;
-    border: solid 2px;
+    border-top: dashed 2px;
+    border-left: dashed 2px;
 }
 
 .box-2{
     position: absolute;
     transform: rotate(45deg);
-    bottom: 85px;
-    left: 180px;
-    width: 200px;
+    bottom: 55px;
+    left: 300px;
+    width: 100px;
     height: 300px;
-    border: solid 2px;
+    border-top: dashed 2px;
+    border-left: dashed 2px;
 }
 
 .box-3{
     position: absolute;
     transform: rotate(45deg);
-    bottom: 50px;
-    left: 250px;
-    width: 100px;
-    height: 100px;
-    border: solid 2px;
+    bottom: 145px;
+    left: 510px;
+    width: 250px;
+    height: 300px;
+    border-top: dashed 2px;
+    border-left: dashed 2px;
 }
 
 .box-4{
     position: absolute;
     transform: rotate(45deg);
-    bottom: 100px;
-    right: 200px;
+    bottom: 400px;
+    right: 40px;
     width: 100px;
-    height: 100px;
-    border: solid 2px;
+    height: 300px;
+    border-left: dashed 2px;
 }
 
 .box-5{
     position: absolute;
     transform: rotate(45deg);
-    bottom: 400px;
+    bottom: 250px;
     right: 300px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 350px;
+    border-top: dashed 2px;
+    border-left: dashed 2px;
+}
+
+
+
+
+
+
+.circ-1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 220px;
+    left: 182px;
+}
+
+.circ-2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 355px;
+    left: 417px;
+}
+
+.circ-3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 500px;
+    left: 648px;
+}
+
+.circ-4{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 610px;
+    left: 970px;
+}
+
+.circ-5{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 670px;
+    left: 1218px;
+}
+
+
+
+.num-1{
+    position: absolute;
+    bottom: 220px;
+    left: 185px;
     border: solid 2px;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.num-2{
+    position: absolute;
+    bottom: 355px;
+    left: 417px;
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.num-3{
+    position: absolute;
+    bottom: 500px;
+    left: 648px;
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.num-4{
+    position: absolute;
+    bottom: 610px;
+    left: 970px;
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 10px 18px 10px 18px;
+    cursor: pointer;
+}
+
+.num-5{
+    position: absolute;
+    bottom: 670px;
+    left: 1200px;
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+
+
+
+.info-1{
+    display: none;
+}
+
+.info-2{
+    display: none;
+}
+
+.info-3{
+    display: none;
+}
+
+.info-4{
+    display: none;
+}
+
+.info-5{
+    display: none;
+}
+
+.num-1:hover + .info-1{
+    display: flex;
 }
