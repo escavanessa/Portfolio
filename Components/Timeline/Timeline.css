@@ -9,6 +9,9 @@
     padding: 100px;
 }
 
+.timeline-container p{
+    display: none;
+}
 
 .box-1{
     position: absolute;
@@ -171,28 +174,3 @@
 }
 
 
-
-
-.info-1{
-    display: none;
-}
-
-.info-2{
-    display: none;
-}
-
-.info-3{
-    display: none;
-}
-
-.info-4{
-    display: none;
-}
-
-.info-5{
-    display: none;
-}
-
-.num-1:hover + .info-1{
-    display: flex;
-}
