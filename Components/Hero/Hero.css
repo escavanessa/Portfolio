@@ -12,3 +12,10 @@
     align-items: flex-start;
     padding: 50px 40px 50px 40px;
 }
+
+.hero-btn{
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px  black;
+}

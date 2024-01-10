@@ -12,9 +12,15 @@ nav{
 .nav-li{
     margin-left: 20px;
     margin-right: 20px;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
     border: solid 2px;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 4px 4px 0px 0px  #cbd5e1;
 }
+
+.nav-li:hover{
+    transform: translateY(7px);
+}
+
 
