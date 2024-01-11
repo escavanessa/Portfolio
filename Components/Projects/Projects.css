@@ -14,12 +14,19 @@
   }
   
 .project-1 { 
+    height: 250px;
     grid-area: project-1;
     display: flex; 
     justify-content: center;
     align-items: center;
-    border: solid 2px;
+    border: solid 2px black;
     border-radius: 10px;
+    background-color: #facc15;
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px  #ca8a04;
   }
 
   
@@ -28,8 +35,14 @@
     display: flex; 
     justify-content: center;
     align-items: center;
-    border: solid 2px;
-    border-radius: 10px; 
+    border: solid 2px black;
+    border-radius: 10px;
+    background-color: #818cf8;
+    color: black; 
+    font-size: xx-large;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px  #4f46e5;
 }
   
   .project-3 { 
@@ -37,8 +50,14 @@
     display: flex; 
     justify-content: center;
     align-items: center;
-    border: solid 2px;
+    border: solid 2px black;
     border-radius: 10px;
+    background-color: #34d399;
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px  #059669;
 }
   
   .project-4 { 
@@ -46,8 +65,14 @@
     display: flex; 
     justify-content: center;
     align-items: center;
-    border: solid 2px;
+    border: solid 2px black;
     border-radius: 10px;
+    background-color: #38bdf8;
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px  #0284c7;
 }
   
   .desc-1 { grid-area: desc-1; }
@@ -58,3 +83,16 @@
   
   .desc-4 { grid-area: desc-4; }
   
+
+.project-1:hover{
+    transform: translateY(2px);
+}
+.project-2:hover{
+  transform: translateY(2px);
+}
+.project-3:hover{
+  transform: translateY(2px);
+}
+.project-4:hover{
+  transform: translateY(2px);
+}
