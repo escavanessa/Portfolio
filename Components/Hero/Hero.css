@@ -12,6 +12,10 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 50px 40px 50px 40px;
+    margin-bottom: 200px;
+    /*background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    */
 }
 
 .hero-btn{
@@ -31,4 +35,35 @@ button{
 
 button:hover{
     transform: translateY(2px);
+}
+
+.img-container{
+    display: flex;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+
+.img1{
+    width: 350px;
+    height: 350px;
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+}
+
+.img3{
+    width: 400px;
+    height: 400px;
+}
+
+.img4{
+    width: 360px;
+    height: 360px;
+    margin-left: 10px;
 }

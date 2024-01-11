@@ -13,7 +13,7 @@ const Education = () => {
 
     <div className='action'>
       <h1>Drag to the left for more!</h1>
-      <span className='arrow-btn'><FaArrowCircleRight /></span>
+      <span className='arrow-btn' id='education'><FaArrowCircleRight /></span>
     </div>
 
 

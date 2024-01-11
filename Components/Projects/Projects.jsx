@@ -4,7 +4,7 @@ import './Projects.css'
 const Projects = () => {
   return (
     <>
-      <div class="project-container">
+      <div class="project-container" id='project-container'>
 
 
 

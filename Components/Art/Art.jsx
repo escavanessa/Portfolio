@@ -3,7 +3,56 @@ import './Art.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-
+const art = [
+    {
+        img: '/bluegirl.png'
+    },
+    {
+        img: './dominoes.jpg'
+    },
+    {
+        img: '/dontknowwho copy.jpg'
+    },
+    {
+        img: '/green reading 300 copy.jpg'
+    },
+    {
+        img: '/greengirl.png'
+    },
+    {
+        img: '/heavy green.jpg'
+    },
+    {
+        img: '/hunger.jpg'
+    },
+    {
+        img: '/IMG_6383.jpg'
+    },
+    {
+        img: '/lost my mind not 300.jpg'
+    },
+    {
+        img: '/Pierce_90x60.png'
+    },
+    {
+        img: '/purplegirl.png'
+    },
+    {
+        img: '/Screen Shot 2023-02-18 at 6.23.05 PM.png'
+    },
+    {
+        img: '/spearbearer.jpg'
+    },
+    {
+        img: '/thoughtful not 300.jpg'
+    },
+    {
+        img: '/veridian.jpg'
+    },
+    {
+        img: '/yellowgirl.png'
+    }
+]
 
 const Art = () => {
     return (
@@ -21,7 +70,16 @@ const Art = () => {
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
                     >
-                        <SwiperSlide>Slide 1</SwiperSlide>
+
+                        {
+                            art.map((img, index) => {
+                                return(
+                                    <SwiperSlide key={index}>
+                                        <img src={img}></img>
+                                    </SwiperSlide>
+                                )
+                            })
+                        }
                     </Swiper>
 
                 </div>
