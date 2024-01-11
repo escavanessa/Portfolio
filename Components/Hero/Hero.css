@@ -26,4 +26,9 @@ button{
     font-weight: 600;
     font-size: larger;
     border: solid 2px;
+    background-color: #cbd5e1;
+}
+
+button:hover{
+    transform: translateY(2px);
 }

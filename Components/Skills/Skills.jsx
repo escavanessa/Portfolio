@@ -17,10 +17,11 @@ const Skills = () => {
         <li className='skill-li'>Tailwind</li>
         <li className='skill-li'>React</li>
         <li className='skill-li'>React Bootstrap</li>
-        <li className='skill-li'>React Rouer DOM</li>
+        <li className='skill-li'>React Router DOM</li>
         <li className='skill-li'>Git/ Github</li>
         <li className='skill-li'>Adobe Photoshop</li>
         <li className='skill-li'>Adobe Premiere Pro</li>
+        <li className='skill-li'>Figma</li>
         <li className='skill-li'>Blender</li>
       </ul>
     </div>
