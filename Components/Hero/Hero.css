@@ -4,6 +4,7 @@
 
 .hero-name{
     font-size: 60px;
+    color:  #34d399;
 }
 
 .hero-wrapper{
@@ -17,5 +18,12 @@
     padding: 10px 15px 10px 15px;
     border-radius: 6px;
     cursor: pointer;
-    box-shadow: 4px 4px 0px 0px  black;
+    box-shadow: 4px 4px 0px 0px  #34d399;
+}
+
+button{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: larger;
+    border: solid 2px;
 }

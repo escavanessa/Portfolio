@@ -10,17 +10,21 @@ nav{
 }
 
 .nav-li{
+    color: black;
+    font-weight: 600;
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px 15px 10px 15px;
-    border: solid 2px;
-    border-radius: 10px;
+    border: solid 2px black;
+    background-color: #cbd5e1;
+    border-radius: 6px;
     cursor: pointer;
-    box-shadow: 4px 4px 0px 0px  #cbd5e1;
+    box-shadow: 4px 4px 0px 0px  #34d399;
 }
 
 .nav-li:hover{
     transform: translateY(7px);
 }
+
 
 

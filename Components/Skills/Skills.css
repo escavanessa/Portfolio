@@ -9,7 +9,19 @@
 .skill-li{
     margin: 5px 10px 5px 10px;
     padding: 5px 10px 5px 10px;
-    border: solid 2px;
+    border: solid 2px #34d399;
     border-radius: 10px;
-
+    color: #34d399;
 }
+
+.skill-heading{
+    display: flex;
+    padding: 10px;
+}
+
+.heading{
+    color:  #34d399;
+    font-size: 50px;
+    margin-left: 10px;
+}
+

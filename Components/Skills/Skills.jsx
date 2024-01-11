@@ -4,6 +4,11 @@ import './Skills.css'
 const Skills = () => {
   return (
     <>
+    <div className='skill-heading'>
+      <h1>Some of my <span className='heading'>SKILLS</span>    . . .</h1>
+    </div>
+
+
     <div className='skill-container'>
       <ul className='skill-ul'>
         <li className='skill-li'>JavaScript/ES6</li>

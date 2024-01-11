@@ -1,27 +1,55 @@
 import React from 'react'
 import './Education.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { FaArrowCircleRight } from "react-icons/fa";
+
+// Import Swiper styles
+import 'swiper/css';
 
 const Education = () => {
   return (
     <>
-      <div className='edu-wrapper'>
-        <div>
-          <h1>Education</h1>
-        </div>
 
-        <div className='edu-info'>
-          <h2>Massachusettes College of Art and Design</h2>
-          <h4 className='edu-dates'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis.</h4>
-          <p className='edu-p'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nostrum mollitia nihil voluptates accusantium commodi enim harum quisquam repellendus libero unde ea, deserunt et iure placeat ipsa voluptatum assumenda aliquid? Voluptatibus ipsam autem consequuntur optio repellat, itaque quos iure voluptate?</p>
 
-          <h2>Front End Developer Certificate - Coursera</h2>
-          <h4 className='edu-dates'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis.</h4>
-          <p className='edu-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quo tenetur animi eos provident dolores eligendi fugit quibusdam, unde ullam expedita voluptas optio cupiditate. Nostrum illo laboriosam sint, minus, dolor modi impedit vero voluptates ullam iusto maiores molestias labore repudiandae assumenda aliquid dignissimos ea corporis!</p>
+    <div className='action'>
+      <h1>Drag to the left for more!</h1>
+      <span className='arrow-btn'><FaArrowCircleRight /></span>
+    </div>
 
-          <h2>Codecademy</h2>
-          <h4 className='edu-dates'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, debitis.</h4>
-          <p className='edu-p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae maxime, vitae nobis ut tempore fugit a natus eum quasi quis provident odio quibusdam, cupiditate dicta cum, iste sapiente. Molestias sapiente architecto neque explicabo officiis distinctio facilis cumque iste delectus possimus.</p>
-        </div>
+
+      <div className='swiper-container'>
+        <Swiper className='swiper'
+          spaceBetween={50}
+          slidesPerView={2}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+
+
+          <SwiperSlide className='swiperSlide'>
+            <h1>Massachisettes College of Art and Design</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores porro nihil maxime suscipit, sint quod deserunt labore obcaecati voluptatem tempora alias debitis adipisci. Veniam vel voluptate molestiae porro voluptatem.</p>
+          </SwiperSlide>
+
+          <SwiperSlide className='swiperSlide'>
+            <h1>Coursera Front End Development Certificate</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores porro nihil maxime suscipit, sint quod deserunt labore obcaecati voluptatem tempora alias debitis adipisci. Veniam vel voluptate molestiae porro voluptatem.</p>
+          </SwiperSlide>
+
+          <SwiperSlide className='swiperSlide'>
+            <h1>Codecademy</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores porro nihil maxime suscipit, sint quod deserunt labore obcaecati voluptatem tempora alias debitis adipisci. Veniam vel voluptate molestiae porro voluptatem.</p>
+          </SwiperSlide>
+
+          <SwiperSlide className='swiperSlide'>
+            <h1>Massachisettes College of Art and Design</h1>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, asperiores?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores porro nihil maxime suscipit, sint quod deserunt labore obcaecati voluptatem tempora alias debitis adipisci. Veniam vel voluptate molestiae porro voluptatem.</p>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   )
