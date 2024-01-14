@@ -7,6 +7,11 @@ const Contact = () => {
  return(
   <>
   <h1 id='contact'>Contact me!</h1>
+  <form>
+    <input placeholder='name'></input>
+    <input placeholder='email'></input>
+    <textarea />
+  </form>
   </>
  )
 }
