@@ -10,8 +10,14 @@ const Contact = () => {
   <form>
     <input placeholder='name'></input>
     <input placeholder='email'></input>
-    <textarea />
+    <textarea placeholder='leave me a message!'/>
   </form>
+
+  <div className='link-container'>
+    <h1>git</h1>
+    <h1>linkdin</h1>
+    <h2>instagram</h2>
+  </div>
   </>
  )
 }
