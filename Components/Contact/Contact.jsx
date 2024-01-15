@@ -1,25 +1,39 @@
 import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './Contact.css'
 
 
 const Contact = () => {
- return(
-  <>
-  <h1 id='contact'>Contact me!</h1>
-  <form>
-    <input placeholder='name'></input>
-    <input placeholder='email'></input>
-    <textarea placeholder='leave me a message!'/>
-  </form>
+  const form = useRef();
 
-  <div className='link-container'>
-    <h1>git</h1>
-    <h1>linkdin</h1>
-    <h2>instagram</h2>
-  </div>
-  </>
- )
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_7mfy0tf', 'template_p289pyb', form.current, 'P4nyRZJVPiap50XhO')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  };
+
+
+  return (
+    <>
+      <div className='form-container'>
+        <form className='form' ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </>
+  )
 }
 
 export default Contact

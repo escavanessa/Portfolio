@@ -11,12 +11,6 @@ const Hero = () => {
         <button className='hero-btn'>Contact Me!</button>
 
       </div>
-      <div className='img-container'>
-        <span><img src='/bluegirl.png' className='img1'></img></span>
-        <span><img src='/heavy green.jpg' className='img2'></img></span>
-        <span><img src='/Pierce_90x60.png' className='img3'></img></span>
-        <span><img src='/purplegirl.png' className='img4'></img></span>
-      </div>
     </>
   )
 }

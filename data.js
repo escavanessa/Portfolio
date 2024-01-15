@@ -1,59 +1,78 @@
 
+const imageData = {}
 
-const art = [
+ imageData.art = [
     {
-        img1: '/bluegirl.png'
+        img: '/bluegirl.png'
     },
     {
-        img2: '/dominoes.jpg'
+        img: '/dominoes.jpg'
     },
     {
-        img3: '/dontknowwho copy.jpg'
+        img: '/dontknowwho copy.jpg'
     },
     {
-        img4: '/green reading 300 copy.jpg'
+        img: '/green reading 300 copy.jpg'
     },
     {
-        img5: '/greengirl.png'
+        img: '/greengirl.png'
     },
     {
-        img6: '/heavy green.jpg'
+        img: '/heavy green.jpg'
     },
     {
-        img7: '/hunger.jpg'
+        img: '/hunger.jpg'
     },
     {
-        img8: '/IMG_6383.jpg'
+        img: '/IMG_6383.jpg'
     },
     {
-        img9: '/lost my mind not 300.jpg'
+        img: '/lost my mind not 300.jpg'
     },
     {
-        img10: '/Pierce_90x60.png'
+        img: '/Pierce_90x60.png'
     },
     {
-        img11: '/purplegirl.png'
+        img: '/purplegirl.png'
     },
     {
-        img12: '/Screen Shot 2023-02-18 at 6.23.05 PM.png'
+        img: '/Screen Shot 2023-02-18 at 6.23.05 PM.png'
     },
     {
-        img13: '/spearbearer.jpg'
+        img: '/spearbearer.jpg'
     },
     {
-        img14: '/thoughtful not 300.jpg'
+        img: '/thoughtful not 300.jpg'
     },
     {
-        img15: '/veridian.jpg'
+        img: '/veridian.jpg'
     },
     {
-        img16: '/yellowgirl.png'
-    }
-]
-
-const threeD = [
+        img: '/I_Love_You_Render.png'
+    },
+    {
+        img: '/chicken.png'
+    },
+    {
+        img: '/chickenshade.png'
+    },
+    {
+        img: '/house.png'
+    },
+    {
+        img: '/scenewire.png'
+    },
+    {
+        img: '/mechshade.png'
+    },
+    {
+        img: '/mechwire.png'
+    },
+    {
+        img: '/girlwire.png'
+    },
     
 ]
 
 
-export default data
+export default imageData
