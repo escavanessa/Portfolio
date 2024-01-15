@@ -22,15 +22,29 @@ const Contact = () => {
   return (
     <>
       <div className='form-container'>
-        <form className='form' ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
-        </form>
+
+        <div className='form-wrapper'>
+          <form className='form' ref={form} onSubmit={sendEmail}>
+
+            <input type="text" name="user_name" placeholder='Name' />
+
+            <input type="email" name="user_email" placeholder='Email' />
+
+            <textarea name="message" placeholder='message'/>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+
+        <div className='design'>
+          <h1>some designs</h1>
+        </div>
+      </div>
+
+
+      <div className='link-container'>
+        <h1>linkedin</h1>
+        <h1>Github</h1>
+        <h1>Instagram</h1>
       </div>
     </>
   )
