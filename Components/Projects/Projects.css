@@ -11,14 +11,6 @@
       "project-2 desc-2"
       "project-3 desc-3"
       "project-4 desc-4";
-      --dot-bg: #0f172a ;
-      --dot-color: #cbd5e1;
-      --dot-size: 1px;
-      --dot-space: 22px;
-        background:
-            linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-            linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-            var(--dot-color);
   }
   
 .project-1 { 

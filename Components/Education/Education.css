@@ -41,6 +41,7 @@
 .action{
     padding: 10px;
     display: flex;
+    align-items: baseline;
     background-color: #020617;
     border: solid 2px black;
     border-radius: 10px;
