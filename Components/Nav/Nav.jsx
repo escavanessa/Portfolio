@@ -4,7 +4,7 @@ import './Nav.css'
 const Nav = () => {
     return (
         <>
-            <nav>
+            <nav className='sticky'>
                 <div className='nav-ul'>
                     <a href='#hero-wrapper' className='nav-li'>Home</a>
                     <a href='#education' className='nav-li'>Education</a>

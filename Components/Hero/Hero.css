@@ -13,10 +13,18 @@
     align-items: flex-start;
     padding: 50px 40px 50px 40px;
     margin-bottom: 200px;
-    /*background-image: radial-gradient(black 1px, transparent 0);
-    background-size: 40px 40px;
-    */
+    height: 600px;
+    border-radius: 10px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.15) !important;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.1px);
+-webkit-backdrop-filter: blur(3.1px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+background-size: contain;
 }
+
 
 .hero-btn{
     padding: 10px 15px 10px 15px;
@@ -36,3 +44,25 @@ button{
 button:hover{
     transform: translateY(2px);
 }
+
+.typewriter {
+    width: 25ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }

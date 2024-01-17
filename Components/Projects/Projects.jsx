@@ -8,22 +8,22 @@ const Projects = () => {
 
 
 
-        <div class="project-1">
+        <div class="project-1 animate__animated animate__fadeIn">
           <div className='p1'>
             <p>Job Dashboard</p>
           </div>
         </div>
-        <div class="project-2">
+        <div class="project-2 animate__animated animate__fadeIn">
           <div className='p2'>
             <p>NASA Open API</p>
           </div>
         </div>
-        <div class="project-3">
+        <div class="project-3 animate__animated animate__fadeIn">
           <div className='p3'>
             <p>Little Lemon</p>
           </div>
         </div>
-        <div class="project-4">
+        <div class="project-4 animate__animated animate__fadeIn">
           <div className='p4'>
             <p>NoteBook</p>
           </div>

@@ -9,17 +9,21 @@ import Skills from '../Components/Skills/Skills'
 import './App.css'
 
 function App() {
-  
+
 
   return (
     <>
-      <Nav/>
-      <Hero/>
-      <Education/>
-      <Skills/>
-      <Projects/>
+      <Nav />
+      <div className='hero-style'>
+        <Hero />
+      </div>
+      <Education />
+      <Skills />
+      <Projects />
       <Art />
-      <Contact />
+      <div className='contact-bg'>
+        <Contact />
+      </div>
     </>
   )
 }

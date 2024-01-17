@@ -41,7 +41,17 @@
 .action{
     padding: 10px;
     display: flex;
-    align-items: first baseline;
+    background-color: #020617;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    box-shadow: 4px 4px 0px 0px  #34d399;
+}
+
+.action h1{
+    margin-right: 20px;
 }
 
 .arrow-btn{

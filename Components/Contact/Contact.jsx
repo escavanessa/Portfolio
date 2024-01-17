@@ -21,28 +21,22 @@ const Contact = () => {
 
   return (
     <>
-      <div className='form-container'>
-
+      <div className='form-container animate__animated animate__fadeIn'>
         <div className='form-wrapper'>
           <form className='form' ref={form} onSubmit={sendEmail}>
             <h1 className='form-header'>Contact Me!</h1>
             <input type="text" name="user_name" placeholder='Name' />
             <input type="email" name="user_email" placeholder='Email' />
-            <textarea name="message" placeholder='message'/>
+            <textarea name="message" placeholder='message' />
             <input type="submit" value="Send" />
           </form>
         </div>
 
         <div className='design'>
-          <h1>some designs</h1>
+          <div className='design-wrapper'>
+            <h1>some designs</h1>
+          </div>
         </div>
-      </div>
-
-
-      <div className='link-container'>
-        <h1>linkedin</h1>
-        <h1>Github</h1>
-        <h1>Instagram</h1>
       </div>
     </>
   )
