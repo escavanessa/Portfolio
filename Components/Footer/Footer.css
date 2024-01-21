@@ -1,0 +1,17 @@
+.footer-container{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.f-logo{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #cbd5e1;
+}
