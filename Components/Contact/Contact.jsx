@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
 
-
+//            <video id='contact-video' autoPlay loop muted ><source src='/grad2.mp4' type='video/mp4'></source></video>
 const Contact = () => {
   const form = useRef();
 
@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className='form-container animate__animated animate__fadeIn'>
+      <div id='#contact' className='form-container animate__animated animate__fadeIn'>
         <div className='form-wrapper'>
           <form className='form' ref={form} onSubmit={sendEmail}>
             <h1 className='form-header'>Contact Me!</h1>
@@ -34,7 +34,7 @@ const Contact = () => {
 
         <div className='design'>
           <div className='design-wrapper'>
-            <h1>some designs</h1>
+
           </div>
         </div>
       </div>

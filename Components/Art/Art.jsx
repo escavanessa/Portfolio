@@ -29,7 +29,7 @@ const Art = () => {
                             art.map((img, index) => {
                                 return (
                                     <SwiperSlide key={index}>
-                                        <img src={img.img}></img>
+                                        <img className='art-img' src={img.img}></img>
                                     </SwiperSlide>
                                 )
                             })

@@ -8,7 +8,7 @@
     box-shadow: 4px 4px 0px 0px  #34d399;
 }
 
-img{
+.art-img{
     height: 500px;
     width: 500px;
     object-fit: cover;
