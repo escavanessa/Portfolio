@@ -3,73 +3,73 @@ const imageData = {}
 
  imageData.art = [
     {
-        img: '/bluegirl.png'
+        img: 'Portfolio/bluegirl.png'
     },
     {
-        img: '/dominoes.jpg'
+        img: 'Portfolio/dominoes.jpg'
     },
     {
-        img: '/dontknowwho copy.jpg'
+        img: 'Portfolio/dontknowwho copy.jpg'
     },
     {
-        img: '/green reading 300 copy.jpg'
+        img: 'Portfolio/green reading 300 copy.jpg'
     },
     {
-        img: '/greengirl.png'
+        img: 'Portfolio/greengirl.png'
     },
     {
-        img: '/heavy green.jpg'
+        img: 'Portfolio/heavy green.jpg'
     },
     {
-        img: '/hunger.jpg'
+        img: 'Portfolio/hunger.jpg'
     },
     {
-        img: '/IMG_6383.jpg'
+        img: 'Portfolio/IMG_6383.jpg'
     },
     {
-        img: '/lost my mind not 300.jpg'
+        img: 'Portfolio/lost my mind not 300.jpg'
     },
     {
-        img: '/Pierce_90x60.png'
+        img: 'Portfolio/Pierce_90x60.png'
     },
     {
-        img: '/purplegirl.png'
+        img: 'Portfolio/purplegirl.png'
     },
     {
-        img: '/Screen Shot 2023-02-18 at 6.23.05 PM.png'
+        img: 'Portfolio/Screen Shot 2023-02-18 at 6.23.05 PM.png'
     },
     {
-        img: '/spearbearer.jpg'
+        img: 'Portfolio/spearbearer.jpg'
     },
     {
-        img: '/thoughtful not 300.jpg'
+        img: 'Portfolio/thoughtful not 300.jpg'
     },
     {
-        img: '/veridian.jpg'
+        img: 'Portfolio/veridian.jpg'
     },
     {
-        img: '/I_Love_You_Render.png'
+        img: 'Portfolio/I_Love_You_Render.png'
     },
     {
-        img: '/chicken.png'
+        img: 'Portfolio/chicken.png'
     },
     {
-        img: '/chickenshade.png'
+        img: 'Portfolio/chickenshade.png'
     },
     {
-        img: '/house.png'
+        img: 'Portfolio/house.png'
     },
     {
-        img: '/scenewire.png'
+        img: 'Portfolio/scenewire.png'
     },
     {
-        img: '/mechshade.png'
+        img: 'Portfolio/mechshade.png'
     },
     {
-        img: '/mechwire.png'
+        img: 'Portfolio/mechwire.png'
     },
     {
-        img: '/girlwire.png'
+        img: 'Portfolio/girlwire.png'
     },
     
 ]
