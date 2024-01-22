@@ -31,12 +31,6 @@ const Contact = () => {
             <input type="submit" value="Send" />
           </form>
         </div>
-
-        <div className='design'>
-          <div className='design-wrapper'>
-
-          </div>
-        </div>
       </div>
     </>
   )
