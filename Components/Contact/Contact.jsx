@@ -21,7 +21,7 @@ const Contact = () => {
 
   return (
     <>
-      <div id='#contact' className='form-container animate__animated animate__fadeIn'>
+      <div id='contact' className='form-container animate__animated animate__fadeIn'>
         <div className='form-wrapper'>
           <form className='form' ref={form} onSubmit={sendEmail}>
             <h1 className='form-header'>Contact Me!</h1>
