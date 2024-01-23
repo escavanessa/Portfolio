@@ -4,6 +4,7 @@ import './Projects.css'
 const Projects = () => {
   return (
     <>
+      <h1 className='hidden-project'>My Projects!</h1>
       <div class="project-container" id='project-container'>
 
 

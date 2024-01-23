@@ -23,6 +23,7 @@ const Art = () => {
                         slidesPerView={2}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
+                        
                     >
 
                         {

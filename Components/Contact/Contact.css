@@ -69,3 +69,26 @@ textarea{
 .design-wrapper{
     text-align: left;
 }
+
+
+@media all and (max-width:480px){
+    .form-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background: none;
+        background-image: none;
+      }
+      .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: solid 2px black;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #cbd5e1;
+        box-shadow: none;
+    }
+      
+  }

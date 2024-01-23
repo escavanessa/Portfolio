@@ -34,3 +34,16 @@ body{
   ) !important;
   border-radius: 10px;
 }
+
+
+@media all and (max-width:480px){
+  #root{
+    padding: 0;
+  }
+  
+  .contact-bg{
+    background: none;
+  }
+  
+
+}

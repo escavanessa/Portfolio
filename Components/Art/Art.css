@@ -1,17 +1,23 @@
 .Art-Header{
     text-align: left;
-    background-color: #020617;
+    background-color: #cbd5e1;
+    color: #020617;
     border: solid 2px black;
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 10px;
-    box-shadow: 4px 4px 0px 0px  #34d399;
+    box-shadow: none;
 }
 
 .art-img{
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 80%;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid black;
 }
+
+
+@media all and (max-width:480px){
+
+  }

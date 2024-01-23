@@ -54,6 +54,10 @@ button:hover{
     font-family: monospace;
     font-size: 2em;
   }
+
+.hidden-hero{
+    display: none;
+  }
   
   @keyframes typing {
     from {
@@ -65,4 +69,38 @@ button:hover{
     50% {
       border-color: transparent
     }
+  }
+
+  @media all and (max-width:480px){
+    .hero-wrapper{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      border-radius: 10px;
+  }
+  button{
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 600;
+    bottom: 15px;
+    left: 15px;
+    font-size: larger;
+    border: solid 2px;
+    background-color: #cbd5e1;
+}
+  .hero-h1{
+    text-align: left;
+    margin-left: 6px;
+  }
+  .hidden-hero{
+    display: block;
+    text-align: left;
+    margin-left: 6px;
+  }
+
   }

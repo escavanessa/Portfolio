@@ -14,7 +14,6 @@
   }
   
 .project-1 { 
-    height: 250px;
     grid-area: project-1;
     display: flex; 
     justify-content: center;
@@ -95,4 +94,62 @@
 }
 .project-4:hover{
   transform: translateY(2px);
+}
+
+.hidden-project{
+  display: none;
+}
+
+@media all and (max-width:480px){
+  .project-container { 
+    display: grid;
+    margin-top: 20px; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "project-1 project-2"
+    "project-3 project-4"; 
+  }
+
+  .project-1{
+    font-size: larger;
+    padding: 10px;
+    margin: 2px;
+  }
+  .project-2{
+    font-size: larger;
+    padding: 10px;
+    margin: 2px;
+  }
+  .project-3{
+    font-size: larger;
+    padding: 10px;
+    margin: 2px;
+  }
+  .project-4{
+    font-size: larger;
+    padding: 10px;
+    margin: 2px;
+  }
+
+  .hidden-project{
+    display: block;
+    text-align: left;
+    margin-left: 6px;
+  }
+
+  .desc-1{
+    display: none;
+  }
+  .desc-2{
+    display: none;
+  }
+  .desc-3{
+    display: none;
+  }
+  .desc-4{
+    display: none;
+  }
+
 }

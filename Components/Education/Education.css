@@ -29,25 +29,22 @@
 }
 
 .swiperSlide h1{
-
     text-align: start;
 }
 
 .swiperSlide h2{
-
     text-align: start;
 }
 
 .action{
-    padding: 10px;
     display: flex;
     align-items: baseline;
-    background-color: #020617;
+    background-color: #cbd5e1;
+    color: #020617;
     border: solid 2px black;
     border-radius: 10px;
-    width: 600px;
+    width: 50%;
     margin-bottom: 20px;
-    margin-left: 10px;
     box-shadow: 4px 4px 0px 0px  #34d399;
 }
 
@@ -58,5 +55,20 @@
 .arrow-btn{
     margin-left: 20px;
     font-size: 60px;
-    color: #34d399;
+    color: #020617;
 }
+
+
+@media all and (max-width:480px){
+    .action{
+        display: flex;
+        flex-direction: column;
+        background-color: #cbd5e1;
+        color: #020617;
+        border: solid 2px black;
+        border-radius: 10px;
+        width: 100%;
+        box-shadow: none;
+    }
+    
+  }
