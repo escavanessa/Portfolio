@@ -14,7 +14,7 @@
 .swiperSlide{
     display: flex !important;
     flex-direction: column;
-    height: 400px !important;
+    height: 90% !important;
     border: solid 2px black;
     border-radius: 10px;
     box-shadow: 4px 4px 0px 0px  #34d399;
@@ -70,5 +70,16 @@
         width: 100%;
         box-shadow: none;
     }
+    .swiper-container{
+      width: 640px; 
+    } 
+    
+  }
+
+  
+@media all and (max-width:768px){
+    .swiper-container{
+      width: 768px; 
+    } 
     
   }
