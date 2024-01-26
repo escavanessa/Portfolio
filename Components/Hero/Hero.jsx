@@ -1,9 +1,9 @@
 import React from 'react'
 import './Hero.css'
 import 'animate.css'
-import bgImage from './../../../Portfolio/public/hero2.jpg'
+import bgImage from './../../../Portfolio/public/grad2.mp4'
 
-// style={{ 'backgroundImage': `url(${bgImage})` }}
+//style={{ 'backgroundImage': `url(${bgImage})` }}
 
 
 const Hero = () => {

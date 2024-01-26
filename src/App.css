@@ -19,13 +19,14 @@ body{
         margin-bottom: 200px;
 }
 
-.hero-style{
+/*.hero-style{
   background: radial-gradient(
     1500px 1500px at 1195px bottom,
     #6366f1, #0f172a
   );
   border-radius: 10px;
 }
+*/
 
 .contact-bg{
   background: radial-gradient(
