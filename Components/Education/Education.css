@@ -100,3 +100,18 @@
     }
     
   }
+
+  @media all and (max-width:1028px) and (min-width:481px){
+    .action{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        background-color: #cbd5e1;
+        color: #020617;
+        border: solid 2px black;
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 0px 0px  #34d399;
+    }
+  }
