@@ -19,14 +19,14 @@ const Art = () => {
             <div className='Art-container'>
                 <div className='Swiper-left'>
                     <Swiper
-                        spaceBetween={50}
+                        spaceBetween={0}
                         slidesPerView={1}
                         onSlideChange={() => console.log('slide change')}
                         onSwiper={(swiper) => console.log(swiper)}
                         breakpoints={{
                             // when window width is >= 640px
                             640: {
-                              width: 480,
+                              width: 640,
                               slidesPerView: 1,
                             },
                             // when window width is >= 768px

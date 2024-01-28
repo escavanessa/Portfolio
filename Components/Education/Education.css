@@ -71,34 +71,21 @@
         width: 100%;
         box-shadow: none;
     }
-    .swiper-container{
-      width: 480px; 
-    } 
-    
-    .swiper{
-        width: 480px;
-    }
-
     .swiperSlide{
-        width: 480px;
+        box-shadow: none;
     }
-
-  }
+}
 
   
 @media all and (max-width:768px){
     .swiper-container{
-      width: 768px; 
-    } 
-
-    .swiper{
-        width: 768px;
+        overflow: hidden;
+        width: 90vw;
     }
-
-    .swiperSlide{
-        width: 768px;
+    .swiper-slide{
+        width: 80vw !important;
+        margin-left: 15px;
     }
-    
   }
 
   @media all and (max-width:1028px) and (min-width:481px){
