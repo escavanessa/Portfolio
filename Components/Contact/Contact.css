@@ -36,6 +36,7 @@ input{
     border: solid 2px black;
     background-color: #cbd5e1;
     box-shadow: 4px 4px 0px 0px  #34d399;
+    outline-color: unset;
 }
 
 input:hover{
@@ -56,6 +57,7 @@ textarea{
     box-shadow: 4px 4px 0px 0px  #34d399;
     font-family: montserrat;
     font-size: large;
+    outline-color: unset;
 }
 
 

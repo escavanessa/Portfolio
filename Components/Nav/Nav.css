@@ -70,6 +70,7 @@ a{
         border-radius: 6px;
         cursor: pointer;
         box-shadow: 4px 4px 0px 0px  #34d399;
+        font-size: small;
     }
     
     .nav-ul{

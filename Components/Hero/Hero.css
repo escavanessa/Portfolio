@@ -1,5 +1,6 @@
 .hero-title{
     font-size: 50px;
+    margin-left: 10px;
 }
 
 .hero-name{
@@ -45,9 +46,11 @@ button:hover{
     transform: translateY(2px);
 }
 
+
+
 .typewriter {
-    width: 25ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    width: 19rem;
+    animation: typing 2s steps(30), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -82,6 +85,7 @@ button:hover{
       padding: 0px;
       margin: 0px;
       border-radius: 10px;
+      margin-bottom: 20px;
   }
   button{
     position: absolute;
@@ -95,13 +99,14 @@ button:hover{
 }
   .hero-h1{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10px;
     font-size: x-large;
   }
   .hidden-hero{
     display: block;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: x-large;
   }
 
@@ -111,6 +116,7 @@ button:hover{
     .hero-wrapper{
       position: relative;
       text-align: left;
+      margin-bottom: 10px;
   }
   button{
     position: absolute;
