@@ -80,7 +80,7 @@
 @media all and (max-width:768px){
     .swiper-container{
         overflow: hidden;
-        width: 90vw;
+        width: 90vw !important;
     }
     .swiper-slide{
         width: 80vw !important;
