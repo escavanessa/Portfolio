@@ -4,6 +4,7 @@ import 'animate.css'
 import bgImage from './../../../Portfolio/public/grad2.mp4'
 
 //style={{ 'backgroundImage': `url(${bgImage})` }}
+//mp4 doesnt really work
 
 
 const Hero = () => {
