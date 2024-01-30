@@ -72,12 +72,8 @@
         box-shadow: none;
     }
 
-    .action h1{
+    .swiperSlide h1{
         margin-bottom: 0;
-    }
-
-    .swiperSlide{
-        box-shadow: none;
     }
 }
 
@@ -92,7 +88,7 @@
         margin-left: 15px;
     }
     .swiperSlide{
-        padding: 0px 10px 12px 10px;
+        padding: 0px 10px 20px 10px;
     }
     .action h1{
         margin-bottom: 0;
