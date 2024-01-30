@@ -7,10 +7,10 @@
         padding: 20px;
         margin-top: 100px;
         /* From https://css.glass */
-background: rgba(255, 255, 255, 0.23);
+background: rgba(147, 197, 253, 0.10);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(6px);
+backdrop-filter: blur(3px);
 -webkit-backdrop-filter: blur(6px);
 border: 1px solid rgba(255, 255, 255, 0.3);
       }
@@ -91,4 +91,25 @@ textarea{
         box-shadow: none;
     }
       
+  }
+
+  @media all and (max-width:1028px) and (min-width:481px){
+    .form-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background: none;
+        background-image: none;
+      }
+      .form-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        border: solid 2px black;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #cbd5e1;
+        box-shadow: none;
+    }
   }

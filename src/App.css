@@ -28,13 +28,13 @@ body{
 }
 */
 
-.contact-bg{
+/* .contact-bg{
   background: radial-gradient(
     1500px 1500px at 195px bottom,
     #6366f1, #0f172a
   ) !important;
   border-radius: 10px;
-}
+} */
 
 
 @media all and (max-width:480px){

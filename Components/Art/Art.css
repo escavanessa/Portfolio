@@ -18,18 +18,16 @@
 }
 
 
-
-    @media all and (max-width:480px){
-        .Swiper-left{
-          width: 480px; 
-        } 
-        
-      }
     
       
     @media all and (max-width:768px){
         .Swiper-left{
-          width: 768px; 
+          overflow: hidden;
+          width: 90vw;
         } 
+        .art-img{
+          height: 100%;
+          width: 100%;
+      }
         
       }

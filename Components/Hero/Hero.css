@@ -16,7 +16,7 @@
     height: 600px;
     border-radius: 10px;
     /* From https://css.glass */
-background: rgba(255, 255, 255, 0.15) !important;
+background: rgba(165, 180, 241, 0.10) !important;
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(3.1px);
@@ -103,4 +103,21 @@ button:hover{
     margin-left: 6px;
   }
 
+  }
+
+  @media all and (max-width:1028px) and (min-width:481px){
+    .hero-wrapper{
+      position: relative;
+      text-align: left;
+  }
+  button{
+    position: absolute;
+    font-family: Montserrat;
+    font-weight: 600;
+    bottom: 15px;
+    left: 15px;
+    font-size: larger;
+    border: solid 2px;
+    background-color: #cbd5e1;
+}
   }
