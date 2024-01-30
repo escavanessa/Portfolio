@@ -3,7 +3,7 @@
 }
 
 .hero-name{
-    font-size: 60px;
+    font-size: 50px;
     color:  #34d399;
 }
 
@@ -95,12 +95,14 @@ button:hover{
 }
   .hero-h1{
     text-align: left;
-    margin-left: 6px;
+    margin-left: 20px;
+    font-size: x-large;
   }
   .hidden-hero{
     display: block;
     text-align: left;
-    margin-left: 6px;
+    margin-left: 20px;
+    font-size: x-large;
   }
 
   }

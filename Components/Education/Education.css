@@ -71,6 +71,11 @@
         width: 100%;
         box-shadow: none;
     }
+
+    .action h1{
+        margin-bottom: 0;
+    }
+
     .swiperSlide{
         box-shadow: none;
     }
@@ -85,6 +90,12 @@
     .swiper-slide{
         width: 80vw !important;
         margin-left: 15px;
+    }
+    .swiperSlide{
+        padding: 0px 10px 12px 10px;
+    }
+    .action h1{
+        margin-bottom: 0;
     }
   }
 
@@ -101,4 +112,5 @@
         margin-bottom: 20px;
         box-shadow: 4px 4px 0px 0px  #34d399;
     }
+    
   }

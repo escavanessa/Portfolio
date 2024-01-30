@@ -2,7 +2,7 @@ import React from 'react'
 import './Education.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaArrowCircleRight } from "react-icons/fa";
-
+import { FaArrowCircleDown } from "react-icons/fa";
 // Import Swiper styles
 import 'swiper/css';
 
@@ -13,7 +13,8 @@ const Education = () => {
         <div className='action'>
           <h1>Education:</h1>
           <h2>Drag to the left for more!</h2>
-          <span className='arrow-btn' id='education'><FaArrowCircleRight /></span>
+          <span className='arrow-btn' id='education'><FaArrowCircleRight /><FaArrowCircleDown /></span>
+          
         </div>
 
 

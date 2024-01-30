@@ -24,9 +24,9 @@ function App() {
       <Skills />
       <Projects />
 
-      <div className='contact-bg'>
+
         <Contact />
-      </div>
+
       <Footer />
     </>
   )
