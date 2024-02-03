@@ -49,7 +49,7 @@ button:hover{
 
 
 .typewriter {
-    width: 19rem;
+    width: auto;
     animation: typing 2s steps(30), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -74,7 +74,7 @@ button:hover{
     }
   }
 
-  @media all and (max-width:480px){
+  @media all and (max-width:768px){
     .hero-wrapper{
       position: relative;
       display: flex;
@@ -112,7 +112,7 @@ button:hover{
 
   }
 
-  @media all and (max-width:1028px) and (min-width:481px){
+  @media all and (max-width:1028px) and (min-width:768px){
     .hero-wrapper{
       position: relative;
       text-align: left;
