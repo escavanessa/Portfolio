@@ -2,6 +2,24 @@
     padding: 40px 0px 40px 0px;
 }
 
+.action{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.action-title{
+    margin-left: 10px;
+    font-size: 50px;
+    color: #34d399;
+}
+
+.arrow-btn{
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+
 .swiper-container{
     padding: 10px;
     height: 500px;
@@ -20,7 +38,8 @@
     box-shadow: 4px 4px 0px 0px  #34d399;
     background-color: #cbd5e1;
     color: black;
-    padding: 0px 0px 0px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .swiperSlide p{
@@ -36,38 +55,23 @@
     text-align: start;
 }
 
-.action{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #cbd5e1;
-    color: #020617;
-    border: solid 2px black;
-    border-radius: 10px;
-    width: 50%;
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.arrow-btn{
-    margin-left: 20px;
-    font-size: 60px;
-    color: #020617;
-}
 
 
 @media all and (max-width:480px){
     .action{
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
-        background-color: #cbd5e1;
-        color: #020617;
-        border: solid 2px black;
-        border-radius: 10px;
-        width: 100%;
-        box-shadow: none;
+    }
+    .action-title{
+        margin-left: 0px;
+        font-size: 50px;
+        color: #34d399;
     }
 
+    .arrow-btn{
+        display: none;
+    }
     .swiperSlide h1{
         margin-bottom: 0;
     }
@@ -79,6 +83,7 @@
 
   
 @media all and (max-width:768px){
+
     .swiper-container{
         overflow: hidden;
         width: 90vw !important;
@@ -91,23 +96,9 @@
         padding: 0px 10px 20px 10px;
         box-shadow: none;
     }
-    .action h1{
-        margin-bottom: 0;
-    }
   }
 
   @media all and (max-width:1028px) and (min-width:481px){
-    .action{
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        background-color: #cbd5e1;
-        color: #020617;
-        border: solid 2px black;
-        border-radius: 10px;
-        width: 100%;
-        margin-bottom: 20px;
-        box-shadow: 4px 4px 0px 0px  #34d399;
-    }
+
     
   }

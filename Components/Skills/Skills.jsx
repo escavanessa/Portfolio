@@ -5,12 +5,12 @@ const Skills = () => {
   return (
     <>
     <div className='skill-heading'>
-      <h1>Some of my <span className='heading'>SKILLS</span>    . . .</h1>
+      <h1>Some of my <span className='heading'>SKILLS</span></h1>
     </div>
 
 
     <div className='skill-container'>
-      <ul className='skill-ul'>
+      <ul className='skill-ul' id='projects'>
         <li className='skill-li'>JavaScript/ES6</li>
         <li className='skill-li'>HTML5</li>
         <li className='skill-li'>CSS</li>
