@@ -1,4 +1,11 @@
 .form-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        padding: 20px;
+        margin-top: 100px;
         /* From https://css.glass */
 background: rgba(147, 197, 253, 0.10);
 border-radius: 16px;
@@ -7,7 +14,11 @@ backdrop-filter: blur(3px);
 -webkit-backdrop-filter: blur(6px);
 border: 1px solid rgba(255, 255, 255, 0.3);
       }
-
+      
+      .design { grid-area: 1 / 1 / 2 / 3; }
+      
+      .form-wrapper { grid-area: 1 / 2 / 2 / 3; }
+      
 
 .form-wrapper{
     display: flex;
@@ -45,7 +56,6 @@ input:hover{
 
 input::placeholder{
    font-size: larger;
-   font-family: montserrat;
 }
 
 textarea{
@@ -60,19 +70,22 @@ textarea{
     outline-color: unset;
 }
 
+.design-wrapper{
+    text-align: left;
+}
 
 .FieldError {
-    color: red;
-    font-size: large; 
-    text-align: left;
-    width: 100%; /*  same width as input */
-    margin-bottom: 2px;
+  color: red;
+  font-size: large; 
+  text-align: left;
+  width: 100%; /*  same width as input */
+  margin-bottom: 2px;
   }
   
   .invalid-field {
-    border: 2px solid red;
+  border: 2px solid red;
   }
-
+  
 
 
 @media all and (max-width:480px){

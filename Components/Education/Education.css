@@ -8,7 +8,7 @@
 }
 
 .swiper{
-    height: 500px;
+    height: 540px;
 }
 
 .swiperSlide{
@@ -38,19 +38,15 @@
 
 .action{
     display: flex;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     background-color: #cbd5e1;
     color: #020617;
     border: solid 2px black;
     border-radius: 10px;
     width: 50%;
     margin-bottom: 20px;
-    box-shadow: 4px 4px 0px 0px  #34d399;
-}
-
-.action h1{
-    margin-right: 20px;
-    margin-left: 6px;
+    padding: 10px;
 }
 
 .arrow-btn{
