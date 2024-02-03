@@ -100,7 +100,7 @@
   display: none;
 }
 
-@media all and (max-width:480px){
+@media all and (max-width:768px){
   .project-container { 
     display: grid;
     margin-top: 20px; 
