@@ -15,9 +15,11 @@ const Projects = () => {
           </div>
         </div>
         <div class="project-2 animate__animated animate__fadeIn">
-          <div className='p2'>
-            <p>NASA Open API</p>
-          </div>
+          <a href='https://escavanessa.github.io/NASA/'>
+            <div className='p2'>
+              <p>NASA Open API</p>
+            </div>
+          </a>
         </div>
         <div class="project-3 animate__animated animate__fadeIn">
           <a href='https://escavanessa.github.io/Little-Lemon/'>
@@ -28,9 +30,11 @@ const Projects = () => {
         </div>
 
         <div class="project-4 animate__animated animate__fadeIn">
-          <div className='p4'>
-            <p>NoteBook</p>
-          </div>
+          <a href='https://escavanessa.github.io/Notebook/'>
+            <div className='p4'>
+              <p>NoteBook</p>
+            </div>
+          </a>
         </div>
 
 
