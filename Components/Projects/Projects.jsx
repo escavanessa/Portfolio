@@ -10,9 +10,11 @@ const Projects = () => {
 
 
         <div class="project-1 animate__animated animate__fadeIn">
-          <div className='p1'>
-            <p>Job Dashboard</p>
-          </div>
+          <a href='https://escavanessa.github.io/Job-Site/'>
+            <div className='p1'>
+              <p>Job Dashboard</p>
+            </div>
+          </a>
         </div>
         <div class="project-2 animate__animated animate__fadeIn">
           <a href='https://escavanessa.github.io/NASA/'>
