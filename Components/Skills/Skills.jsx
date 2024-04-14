@@ -16,6 +16,8 @@ const Skills = () => {
         <li className='skill-li'>CSS</li>
         <li className='skill-li'>Tailwind</li>
         <li className='skill-li'>React</li>
+        <li className='skill-li'>NodeJs</li>
+        <li className='skill-li'>Apex</li>
         <li className='skill-li'>React Bootstrap</li>
         <li className='skill-li'>React Router DOM</li>
         <li className='skill-li'>Git/ Github</li>
