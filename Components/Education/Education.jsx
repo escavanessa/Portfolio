@@ -47,7 +47,15 @@ const Education = () => {
               <h1>Coursera Front End Development Certificate</h1>
               <h2>2023 - 2024</h2>
               <p>
-                Although this course by no means was my own resource when learning Front End - it was largely my spring board - pointing me in different directions to dig deeper and sharpen my skills. This course covered the basics like HTML and CSS and basic Javascript and then moved into more advanced topics like state/ useEffect in React, Async functions/ fetching data and ended with a thorough introduction to Data Structures.
+                Although this course by no means was my own resource when learning Front End - it was largely my spring board - pointing me in different directions to dig deeper and sharpen my skills. This course covered the basics like HTML and CSS and basic Javascript and then moved into more advanced topics like state/ useEffect/ useContext in React, Async functions/ fetching data and ended with a thorough introduction to Data Structures.
+              </p>
+            </SwiperSlide>
+
+            <SwiperSlide className='swiperSlide'>
+              <h1>Salesforce Javascript Developer I</h1>
+              <h2>2023 - 2024</h2>
+              <p>
+                This was by far one of the most challenging courses ive done. The introduction to Apex took me for a spin and my knowlege of Javascript was truly tested in the final project. Using SLDS in lightning web components, creating and invoking Apex methods to read data, using component events and public method to enable communication between components - these were all pieces, among others, of the final project. After this I presented the Javascript exam!
               </p>
             </SwiperSlide>
 

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import './Projects.css'
 
@@ -31,13 +32,13 @@ const Projects = () => {
           </a>
         </div>
 
-        <div class="project-4 animate__animated animate__fadeIn">
+        {/* <div class="project-4 animate__animated animate__fadeIn">
           <a href='https://escavanessa.github.io/Notebook/'>
             <div className='p4'>
               <p>NoteBook</p>
             </div>
           </a>
-        </div>
+        </div> */}
 
 
 
@@ -57,11 +58,11 @@ const Projects = () => {
             The Coursera Capstone project. I used React and Tailwind to build a fully functional reservation system for the Little Lemon website. Its important to note the API Coursera provided did not work so I had no access to data and had to build it myself with the help of a brilliant friend.
           </p>
         </div>
-        <div class="desc-4">
+        {/* <div class="desc-4">
           <p>
             A productivity tracker/ notebook for personal use. Built with React and Vanilla CSS. This is the project ive wanted to build for the longest time and I enjoyed every moment. It includes the ability to add notebooks, sticky notes, a calender adn so on.
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   )
