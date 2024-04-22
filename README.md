@@ -15,6 +15,7 @@ I learned about EmailJs for the contact form. I knew having a form where you put
 
 
 <h1>What Can Be Improved?</h1>
+i want to completely redesign the website. ill probably make a new repo for it!
 I think the UI of the Hero component can be improved. I have always struggled with the 'wam' factor of the landing page and im still struggling with it. I dont know how little is too little and how much is too much. I added some of my art but I felt the 'vibe' was off. It not longer was clean and sleek which is the feeling i wanted to put forward. I also want to see where I cn add some visual interest. I love the github landing page. Im going to take a lot of inspiration from tht page moving forward. The delays when scrolling down, the way the cards shift around, the lines and gradients, I love it so im going to be using that moving forward.
 
 
